@@ -1,0 +1,112 @@
+/* --- */
+/* FONTS */
+@font-face {
+  font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolis-light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolis-regular.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolis-medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolis-semibold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolis-bold.otf");
+  font-weight: bold;
+}
+
+.font-metropolis {
+  font-family: "Metropolis", sans-serif;
+}
+
+/* --- */
+/* MARGIN AND PADDING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Metropolis", sans-serif;
+}
+
+section.content {
+  padding: 1rem;
+  padding-left: 5%;
+  font-family: "Metropolis", sans-serif;
+}
+
+/* --- */
+/* HEADER AND FOOTER */
+header,
+footer {
+  background: #1d47a1;
+  /* background-color: #1d47a1 !important;  */
+  color: #ffffff;
+  width: 100%;
+  position: sticky;
+  padding: 1rem;
+  padding-left: 5%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  font-size: 0.8rem;
+  padding-left: 5%;
+}
+
+/* --- */
+.dropdown-menu {
+  font-family: "Metropolis", sans-serif;
+  font-size: 0.9rem;
+}
+
+.details-menu[open] .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  margin: 8px 8px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #F5F5F5;
+}
+
+
+/* --- */
+/* NAVBAR */
+.nav-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-a {
+  color: #111a35 !important;
+  font-weight: bold;
+  margin-right: 2em; /* Adjust spacing between items */
+}
+
+.nav-link-a:last-child {
+  margin-right: 0; /* Remove margin from last item to prevent extra space */
+}

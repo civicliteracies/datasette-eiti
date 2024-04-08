@@ -1,0 +1,38 @@
+# Top-level metadata
+
+title: EITI SOE Database
+description_html: Company database based on EITI summary data reports submitted annually by member countries. Click on one of the databases below to see the data.
+license: ODbL
+license_url: https://opendatacommons.org/licenses/odbl/
+source: Extractives Industry Transparency Initiative
+source_url: https://eiti.org
+
+# Database-level and table-level metadata
+databases:
+  eiti_database:
+    description_html: Welcome to the EITI database. This database includes ...
+    tables:
+      _csv_progress_:
+        hidden: true
+      declarations:
+        description_html: Lorem ipsum
+        facets:
+          - country
+          - year
+        facet_size: 5
+      entities:
+        description_html: Lorem ipsum
+        facets:
+          - entity_type
+        facet_size: 5
+      relationships:
+        description_html: Lorem ipsum
+        facets:
+          - relationship_type
+        facet_size: 5
+      statements:
+        description_html: Lorem ipsum
+        facets:
+          - country
+          - year
+        facet_size: 5

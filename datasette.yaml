@@ -1,0 +1,19 @@
+# Custom static files
+extra_css_urls:
+- /static/styles.css
+
+# Datasette settings block
+settings:
+  default_page_size: 50
+  sql_time_limit_ms: 3500
+  max_returned_rows: 100000
+
+# Database-level and table-level metadata
+databases:
+  eiti_database:
+    queries:
+      soe_entities:
+        title: SOE entities only 
+        hide_sql: true
+        sql: SELECT * FROM entities WHERE entity_type = 'company'
+        description_html: Lorem ipsum
