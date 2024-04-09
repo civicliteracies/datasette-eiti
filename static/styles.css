@@ -110,11 +110,32 @@ footer {
 
 .nav-link-a {
   /* color: #111a35 !important; */
-  color: #ffffff !important;
+  color: #ffffff;
   font-weight: bold;
   margin-right: 2em;
 }
 
 .nav-link-a:last-child {
   margin-right: 0;
+}
+
+/* --- */
+/* EXPLORE BUTTON */
+.explore-button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #1d47a1;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin: 20px 0px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.explore-button:hover {
+  color: #67C98D !important; /* Change font color on hover */
+}
+
+.explore-button:active {
+  color: #cccccc; /* Change font color when clicked */
 }
